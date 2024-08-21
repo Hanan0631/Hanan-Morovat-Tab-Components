@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #afc5ff;
+}
+
+.container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: #fcff82;
+  font-size: 2.5rem;
+}
+
+@media(max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+}
